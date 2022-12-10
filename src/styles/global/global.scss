@@ -4,11 +4,21 @@
 .container {
   max-width: 1196px;
   width: 100%;
+  margin: 0 auto;
+  @include for-size(phone-only) {
+    padding: 0 24px;
+  }
+  @include for-size(tablet-up) {
+    padding: 0 32px;
+  }
+  @include for-size(desktop-up) {
+    padding: 0;
+  }
 }
 
 .row {
   width: 100%;
-  display: flex;
+  @extend .flex;
   flex-wrap: wrap;
 }
 
@@ -17,17 +27,69 @@
 }
 
 .flex-j-c {
-  display: flex;
+  @extend .flex;
   justify-content: center;
 }
 
 .flex-a-c {
-  display: flex;
+  @extend .flex;
   align-items: center;
 }
 
 .flex-c {
-  display: flex;
+  @extend .flex;
   align-items: center;
   justify-content: center;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.grow-1 {
+  flex-grow: 1;
+}
+
+.btn {
+  padding: 6px 18px;
+  border-radius: 4px;
+  @extend .flex-c;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: $primary;
+}
+
+.typo-btn-small {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 23px;
+  text-transform: uppercase;
+  letter-spacing: 0.46px;
+}
+
+.text--white {
+  color: $white;
+}
+
+.hide-tablet-up {
+  @include for-size(tablet-up) {
+    display: none;
+  }
+}
+.hide-phone-only {
+  @include for-size(phone-only) {
+    display: none;
+  }
+}
+.hide-laptop-up {
+  @include for-size(laptop-up) {
+    display: none;
+  }
+}
+.hide-tablet-down {
+  @include for-size(tablet-down) {
+    display: none;
+  }
 }

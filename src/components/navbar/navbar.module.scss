@@ -1,0 +1,37 @@
+.nav {
+  height: 80px;
+  box-shadow: $shadow-1;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  margin-left: 110px;
+  li {
+    margin-left: 56px;
+    &:first-child {
+      margin-left: 0;
+    }
+    a {
+      color: $text-primary;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+}
+.logo {
+  @include for-size(tablet-up) {
+    width: 184px;
+    min-width: 184px;
+  }
+  @include for-size(phone-only) {
+    width: 122px;
+    min-width: 122px;
+  }
+}
+
+.nav-wrapper {
+  @include for-size(tablet-down) {
+    justify-content: space-between;
+  }
+}
