@@ -1,0 +1,33 @@
+@import "./reset.scss";
+@import "./grid.scss";
+
+.container {
+  max-width: 1196px;
+  width: 100%;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-j-c {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-a-c {
+  display: flex;
+  align-items: center;
+}
+
+.flex-c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
