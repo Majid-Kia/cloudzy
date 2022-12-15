@@ -41,7 +41,7 @@ const Navbar = () => {
             </li>
           </ul>
           <Button
-            className={`text--white ${styles.signInBtn}`}
+            className={`text--white btn-small ${styles.signInBtn}`}
             text="SIGN IN"
             type="primary"
           ></Button>

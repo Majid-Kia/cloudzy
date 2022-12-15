@@ -3,8 +3,9 @@ import PropTypes from "prop-types";
 
 const Button = ({ children, text, type, className }) => {
   return (
-    <button className={`btn typo-btn-small btn-${type} ${className}`}>
-      <span>{text}</span> {children}
+    <button className={`btn  btn-${type} ${className ? className : ""}`}>
+      <span className={`${children ? "mr-10" : ""} flex`}>{text}</span>{" "}
+      {children}
     </button>
   );
 };
