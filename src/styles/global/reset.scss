@@ -14,6 +14,14 @@
   font-named-instance: "Regular";
   src: url(/fonts/roboto/Roboto-Bold.woff2) format("woff2");
 }
+@font-face {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: "Regular";
+  src: url(/fonts/roboto/Roboto-Medium.woff2) format("woff2");
+}
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -23,7 +31,7 @@ html {
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 body,
@@ -62,4 +70,13 @@ img {
 
 a {
   text-decoration: none;
+}
+
+button {
+  color: inherit;
+  background-color: initial;
+  border: none;
+  box-shadow: none;
+  outline: unset;
+  font: inherit;
 }

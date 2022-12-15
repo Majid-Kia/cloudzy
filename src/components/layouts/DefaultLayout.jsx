@@ -4,7 +4,7 @@ import Navbar from "../navbar/Navbar";
 export default function Layout({ children }) {
   console.log("test");
   return (
-    <div className="container">
+    <div className="w-100">
       <Navbar />
       {children}
     </div>

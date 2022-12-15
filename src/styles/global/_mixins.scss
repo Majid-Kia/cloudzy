@@ -15,5 +15,13 @@
     @media (min-width: 1200px) {
       @content;
     }
+  } @else if $size == tablet-down {
+    @media (max-width: 899px) {
+      @content;
+    }
+  } @else if $size == laptop-down {
+    @media (max-width: 1199px) {
+      @content;
+    }
   }
 }
