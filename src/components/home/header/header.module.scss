@@ -60,6 +60,9 @@
   }
 
   ul {
+    @include for-size(tablet-down) {
+      justify-content: space-between;
+    }
     @include for-size(phone-only) {
       width: 100%;
       overflow-x: auto;

@@ -15,6 +15,24 @@
   }
 }
 
+.h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 55px;
+  @include for-size(tablet-down) {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  @include for-size(phone-only) {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+.h5 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+}
 .h6 {
   font-weight: 500;
   font-size: 20px;
@@ -42,8 +60,12 @@
   font-size: 16px;
   line-height: 24px;
 }
+.body-1 {
+  font-size: 16px;
+
+  line-height: 24px;
+}
 .body-2 {
-  font-weight: 400;
   font-size: 14px;
   line-height: 22px;
 }
