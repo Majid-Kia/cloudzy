@@ -2,6 +2,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: "/cloudzy",
   siteMetadata: {
     siteUrl: `https://www.yourdomain.tld`,
   },
