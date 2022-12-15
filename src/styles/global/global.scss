@@ -1,5 +1,6 @@
 @import "./reset.scss";
 @import "./grid.scss";
+@import "./typography.scss";
 
 .container {
   max-width: 1196px;
@@ -42,6 +43,10 @@
   justify-content: center;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .w-100 {
   width: 100%;
 }
@@ -55,22 +60,11 @@
   border-radius: 4px;
   @extend .flex-c;
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 .btn-primary {
   background-color: $primary;
-}
-
-.typo-btn-small {
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 23px;
-  text-transform: uppercase;
-  letter-spacing: 0.46px;
-}
-
-.text--white {
-  color: $white;
 }
 
 .hide-tablet-up {
@@ -92,4 +86,17 @@
   @include for-size(tablet-down) {
     display: none;
   }
+}
+
+//margins
+.mt-100 {
+  @include margin(t, 100);
+}
+
+.mt-40 {
+  @include margin(t, 40);
+}
+
+.mr-10 {
+  @include margin(r, 10);
 }

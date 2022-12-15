@@ -25,3 +25,12 @@
     }
   }
 }
+
+@mixin margin($direction, $value) {
+  @if $direction == t {
+    margin-top: $value + px;
+  }
+  @if $direction == r {
+    margin-right: $value + px;
+  }
+}
