@@ -43,6 +43,10 @@
   justify-content: center;
 }
 
+.justify-space-between {
+  justify-content: space-between;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -91,6 +95,10 @@
 //margins
 .mt-100 {
   @include margin(t, 100);
+}
+
+.mt-150 {
+  @include margin(t, 150);
 }
 
 .mt-40 {
