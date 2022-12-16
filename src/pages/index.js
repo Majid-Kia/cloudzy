@@ -2,6 +2,7 @@ import * as React from "react";
 import Header from "components/home/header/Header";
 import DefaultLayout from "components/layouts/DefaultLayout";
 import WhyChoose from "components/home/why-choose/WhyChoose";
+import NowCloud from "components/home/now-cloud/NowCloud";
 
 const IndexPage = () => {
   return (
@@ -10,6 +11,9 @@ const IndexPage = () => {
         <Header />
       </div>
       <WhyChoose />
+      <div className="container">
+        <NowCloud />
+      </div>
     </DefaultLayout>
   );
 };
