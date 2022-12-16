@@ -15,9 +15,17 @@ module.exports = {
       options: {
         defaults: {
           quality: 100,
+
           breakpoints: [600, 900, 1200, 1920],
           backgroundColor: `transparent`,
           placeholder: "none",
+          formats: ["auto", "png"],
+          webpOptions: {
+            quality: 100,
+          },
+          pngOptions: {
+            quality: 100,
+          },
         },
       },
     },

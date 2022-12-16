@@ -70,6 +70,9 @@
 .btn-primary {
   background-color: $primary;
 }
+.btn-secondary {
+  background-color: $secondary;
+}
 
 .hide-tablet-up {
   @include for-size(tablet-up) {
