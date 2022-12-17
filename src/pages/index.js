@@ -3,12 +3,14 @@ import Header from "components/home/header/Header";
 import DefaultLayout from "components/layouts/DefaultLayout";
 import WhyChoose from "components/home/why-choose/WhyChoose";
 import NowCloud from "components/home/now-cloud/NowCloud";
+import PriceCards from "components/home/price-cards/PriceCards";
 
 const IndexPage = () => {
   return (
     <DefaultLayout>
       <div className="container">
         <Header />
+        <PriceCards />
       </div>
       <WhyChoose />
       <div className="container">

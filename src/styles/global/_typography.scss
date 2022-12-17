@@ -67,12 +67,16 @@
 }
 .body-1 {
   font-size: 16px;
-
   line-height: 24px;
 }
 .body-2 {
   font-size: 14px;
   line-height: 22px;
+}
+.semi-bold {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
 }
 .text--secondary {
   color: $text-secondary;
@@ -83,7 +87,9 @@
 .text--primary-main {
   color: $primary;
 }
-
+.text--grey-400 {
+  color: $grey-400;
+}
 .text--white {
   color: $white;
 }
