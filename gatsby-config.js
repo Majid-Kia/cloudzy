@@ -9,6 +9,14 @@ module.exports = {
   plugins: [
     `gatsby-plugin-root-import`,
     `gatsby-plugin-image`,
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /\.inline\.svg$/
+        }
+      }
+    },
     `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-sharp`,
