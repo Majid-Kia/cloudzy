@@ -1,11 +1,11 @@
 import React from "react";
 import Navbar from "../navbar/Navbar";
-import { Script } from "gatsby";
+// import { Script } from "gatsby";
 
 export default function Layout({ children }) {
   return (
     <div className="w-100">
-      <Script
+      {/* <Script
         id="first-unique-id"
         strategy="idle"
         dangerouslySetInnerHTML={{
@@ -16,7 +16,7 @@ export default function Layout({ children }) {
                   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
                 })(window,document,'script','dataLayer','GTM-MJ3RHZR');`,
         }}
-      />
+      /> */}
       <Navbar />
       {children}
     </div>

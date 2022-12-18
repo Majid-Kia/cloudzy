@@ -13,9 +13,9 @@ module.exports = {
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
-          include: /\.inline\.svg$/
-        }
-      }
+          include: /\.inline\.svg$/,
+        },
+      },
     },
     `gatsby-transformer-sharp`,
     {
@@ -51,6 +51,18 @@ module.exports = {
       options: {
         name: "fonts",
         path: `${__dirname}/static/fonts/roboto`,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-MJ3RHZR",
+
+        includeInDevelopment: false,
+
+        defaultDataLayer: { platform: "gatsby" },
+
+        enableWebVitalsTracking: true,
       },
     },
   ],
