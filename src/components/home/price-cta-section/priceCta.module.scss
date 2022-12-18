@@ -29,6 +29,9 @@
 
 .price-cta-title{
     margin-bottom: 16px;
+    @include for-size(tablet-down) {
+        margin-bottom: 8px;
+    }
 }
 
 .priceCtaAction {
