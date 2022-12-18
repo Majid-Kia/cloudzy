@@ -11,6 +11,7 @@ const PriceCards = () => {
       <div className={styles.tabs}>
         {tabItems.map((tab) => (
           <button
+            key={tab}
             onClick={() => setOs(tab)}
             className={`${tab === os ? styles.active : ""}`}
           >
