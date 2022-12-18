@@ -21,7 +21,10 @@ const WhyChoose = () => {
         <div className={`${styles.whyChoose__items} flex flex-wrap w-100`}>
           <div className={`${styles.whyChoose__item}`}>
             <div className={`${styles.cardTitle} flex flex-a-c`}>
-              <StaticImage src="../../../images/home/why-choose-us/card.png" />
+              <StaticImage
+                src="../../../images/home/why-choose-us/card.png"
+                alt="card"
+              />
               <span className="h5 text--primary">Affordable</span>
             </div>
 
@@ -32,7 +35,10 @@ const WhyChoose = () => {
           </div>
           <div className={`${styles.whyChoose__item}`}>
             <div className={`${styles.cardTitle} flex flex-a-c`}>
-              <StaticImage src="../../../images/home/why-choose-us/server.png" />
+              <StaticImage
+                src="../../../images/home/why-choose-us/server.png"
+                alt="server"
+              />
               <span className="h5 text--primary">High-Performance</span>
             </div>
 
@@ -43,7 +49,10 @@ const WhyChoose = () => {
           </div>
           <div className={`${styles.whyChoose__item}`}>
             <div className={`${styles.cardTitle} flex flex-a-c`}>
-              <StaticImage src="../../../images/home/why-choose-us/lock.png" />
+              <StaticImage
+                src="../../../images/home/why-choose-us/lock.png"
+                alt="lock"
+              />
               <span className="h5 text--primary">Safe and Secure</span>
             </div>
 
@@ -54,7 +63,10 @@ const WhyChoose = () => {
           </div>
           <div className={`${styles.whyChoose__item}`}>
             <div className={`${styles.cardTitle} flex flex-a-c`}>
-              <StaticImage src="../../../images/home/why-choose-us/bitcoin.png" />
+              <StaticImage
+                src="../../../images/home/why-choose-us/bitcoin.png"
+                alt="bitcoin"
+              />
               <span className="h5 text--primary">Flexible Payment</span>
             </div>
 
@@ -65,7 +77,10 @@ const WhyChoose = () => {
           </div>
           <div className={`${styles.whyChoose__item}`}>
             <div className={`${styles.cardTitle} flex flex-a-c`}>
-              <StaticImage src="../../../images/home/why-choose-us/fast.png" />
+              <StaticImage
+                src="../../../images/home/why-choose-us/fast.png"
+                alt="fast"
+              />
               <span className="h5 text--primary">Fast Setup</span>
             </div>
 
@@ -76,7 +91,10 @@ const WhyChoose = () => {
           </div>
           <div className={`${styles.whyChoose__item}`}>
             <div className={`${styles.cardTitle} flex flex-a-c`}>
-              <StaticImage src="../../../images/home/why-choose-us/dollar.png" />
+              <StaticImage
+                src="../../../images/home/why-choose-us/dollar.png"
+                alt="dollar"
+              />
               <span className="h5 text--primary">Full Refund</span>
             </div>
 

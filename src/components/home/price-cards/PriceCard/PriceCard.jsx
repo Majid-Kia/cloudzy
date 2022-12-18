@@ -50,6 +50,7 @@ const PriceCard = ({ active }) => {
           <StaticImage
             src="../../../../images/home/price-cards/windows.png"
             width={42}
+            alt="windows logo"
           />
         </div>
         <div className="mt-8 body-2 text--grey-400">

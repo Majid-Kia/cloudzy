@@ -14,6 +14,7 @@ const NowCloud = () => {
           src="../../../images/home/now-cloud/now-cloud.png"
           width={900}
           height={550}
+          alt="now cloud"
         />
       </div>
       <div className={styles.nowDescription}>
