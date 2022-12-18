@@ -5,6 +5,7 @@ import WhyChoose from "components/home/why-choose/WhyChoose";
 import NowCloud from "components/home/now-cloud/NowCloud";
 import PriceCards from "components/home/price-cards/PriceCards";
 import MapSection from "../components/home/map-section/MapSection";
+import Carousel from "components/carousel/Carousel";
 
 const IndexPage = () => {
   return (
@@ -16,6 +17,7 @@ const IndexPage = () => {
       </div>
       <WhyChoose />
       <div className="container">
+        <Carousel />
         <NowCloud />
       </div>
     </DefaultLayout>
