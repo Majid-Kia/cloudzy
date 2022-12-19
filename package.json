@@ -17,6 +17,7 @@
   },
   "license": "0BSD",
   "dependencies": {
+    "@builder.io/partytown": "^0.7.3",
     "gatsby": "^5.2.0",
     "gatsby-plugin-google-tagmanager": "^5.3.1",
     "gatsby-plugin-image": "^3.2.0",
