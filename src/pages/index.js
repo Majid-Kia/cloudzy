@@ -5,7 +5,7 @@ import WhyChoose from "components/home/why-choose/WhyChoose";
 import NowCloud from "components/home/now-cloud/NowCloud";
 import PriceCards from "components/home/price-cards/PriceCards";
 import MapSection from "../components/home/map-section/MapSection";
-import PriceCtaSection from "../components/home/price-cta-section/PriceCtaSection";
+// import PriceCtaSection from "../components/home/price-cta-section/PriceCtaSection";
 
 const IndexPage = () => {
   return (
@@ -18,7 +18,7 @@ const IndexPage = () => {
       <WhyChoose />
       <div className="container">
         <NowCloud />
-        <PriceCtaSection />
+        {/* <PriceCtaSection /> */}
       </div>
     </DefaultLayout>
   );
