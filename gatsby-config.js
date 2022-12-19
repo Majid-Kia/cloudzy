@@ -53,15 +53,16 @@ module.exports = {
         path: `${__dirname}/static/fonts/roboto`,
       },
     },
-    // {
-    //   resolve: "gatsby-plugin-google-tagmanager",
-    //   options: {
-    //     id: "GTM-MJ3RHZR",
-
-    //     includeInDevelopment: false,
-
-    //     defaultDataLayer: { platform: "gatsby" },
-    //   },
-    // },
   ],
 };
+
+// {
+//   resolve: "gatsby-plugin-google-tagmanager",
+//   options: {
+//     id: "GTM-MJ3RHZR",
+
+//     includeInDevelopment: false,
+
+//     defaultDataLayer: { platform: "gatsby" },
+//   },
+// },
