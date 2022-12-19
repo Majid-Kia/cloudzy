@@ -53,15 +53,6 @@ module.exports = {
         path: `${__dirname}/static/fonts/roboto`,
       },
     },
-    {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        trackingIds: ["GTM-MJ3RHZR"],
-        pluginConfig: {
-          head: true,
-        },
-      },
-    },
   ],
 };
 
